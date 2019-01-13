@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import time
@@ -12,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-# In[2]:
+
 
 
 def get_filters():
@@ -31,7 +28,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
-            print('invalid city name, please choose the city in chicago, new york city or washington')
+            print('Invalid city name, please choose the city in chicago, new york city or washington')
 
     # get user input for month (all, january, february, ... , june)
     while True:
@@ -39,7 +36,7 @@ def get_filters():
         if month in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
             break
         else:
-            print('invalid month, please choose the month in (all, january, february, ... , june)')
+            print('Invalid month, please choose the month in (all, january, february, ... , june)')
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -47,13 +44,13 @@ def get_filters():
             if day in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
                 break
             else:
-                print('invalid day of week, please choose the day of week in (all, monday, tuesday, ... sunday)')
+                print('Invalid day of week, please choose the day of week in (all, monday, tuesday, ... sunday)')
 
     print('-'*40)
     return city, month, day
 
 
-# In[3]:
+
 
 
 def load_data(city, month, day):
@@ -94,7 +91,7 @@ def load_data(city, month, day):
     return df
 
 
-# In[4]:
+
 
 
 def time_stats(df):
@@ -117,7 +114,7 @@ def time_stats(df):
     print('-'*40)
 
 
-# In[5]:
+
 
 
 def station_stats(df):
@@ -140,7 +137,7 @@ def station_stats(df):
     print('-'*40)
 
 
-# In[6]:
+
 
 
 def trip_duration_stats(df):
@@ -159,7 +156,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-# In[37]:
+
 
 
 def user_stats(df):
@@ -191,7 +188,7 @@ def user_stats(df):
     print('-'*40)
 
 
-# In[38]:
+
 
 
 def main():
