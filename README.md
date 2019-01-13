@@ -4,6 +4,9 @@ Jan 13 2019
 ### Project Title
 US bikeshare data analysis
 
+### Contributor
+Ping Han Hsieh
+
 ### Description
 Explore bikeshare data in Chicago, New York City and Washington
 
