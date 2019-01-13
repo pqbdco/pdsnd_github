@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import time
@@ -12,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-# In[2]:
+
 
 
 def get_filters():
@@ -53,7 +50,7 @@ def get_filters():
     return city, month, day
 
 
-# In[3]:
+
 
 
 def load_data(city, month, day):
@@ -94,7 +91,7 @@ def load_data(city, month, day):
     return df
 
 
-# In[4]:
+
 
 
 def time_stats(df):
@@ -117,7 +114,7 @@ def time_stats(df):
     print('-'*40)
 
 
-# In[5]:
+
 
 
 def station_stats(df):
@@ -140,7 +137,7 @@ def station_stats(df):
     print('-'*40)
 
 
-# In[6]:
+
 
 
 def trip_duration_stats(df):
@@ -159,7 +156,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-# In[37]:
+
 
 
 def user_stats(df):
@@ -191,7 +188,7 @@ def user_stats(df):
     print('-'*40)
 
 
-# In[38]:
+
 
 
 def main():
