@@ -19,3 +19,6 @@ README.md
 
 ### Credits
 Forked from https://github.com/udacity/pdsnd_github
+
+### Acknowledgement
+Thanks Udacity for creating this incredible course!
